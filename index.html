@@ -1,68 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<br lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>porfolio</title>
-</head>
-<body>
+  </head>
+  <br>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Portfolio</h1>
-        <p>Welcome to my portfolio</p>
-        <h2>ameera abed alnaser</h2>
-        <p>I'm  full stack developer</p>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Portfolio</h1>
+      <p>Welcome to my portfolio</p>
+      <h2>ameera abed alnaser</h2>
+      <p>I'm full stack developer</p>
     </header>
     <article>
-        <h2>studied</h2>
-        <p>Bachelor of computer engineer</p>
+      <h2>studied</h2>
+      <p>Bachelor of computer engineer</p>
     </article>
     <article>
-        <h2>skills</h2>
-       <ul>
+      <h2>skills</h2>
+      <ul>
         <li>java,javascript, css ,html</li>
         <li>react, spring boot</li>
         <li>git ,githup</li>
-       </ul>
+      </ul>
     </article>
     <article>
-        <div class="project">
+      <div class="project">
         <h2>Project 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis, libero eget condimentum bibendum, mauris nunc laoreet risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.</p>
-        <img src="img1.png" alt="Image 1">
-        </div>
-        <div class="project">
-            <h2>Project 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis, libero eget condimentum bibendum, mauris nunc laoreet risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.</p>
-            <img src="img1.png" alt="Image 1">
-            </div>
-            <div class="project">
-                <h2>Project 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis, libero eget condimentum bibendum, mauris nunc laoreet risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.</p>
-                <img src="img1.png" alt="Image 1">
-                </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          facilisis, libero eget condimentum bibendum, mauris nunc laoreet
+          risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.
+        </p>
+        <img src="img1.png" alt="Image 1" />
+      </div>
+      <div class="project">
+        <h2>Project 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          facilisis, libero eget condimentum bibendum, mauris nunc laoreet
+          risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.
+        </p>
+        <img src="img1.png" alt="Image 1" />
+      </div>
+      <div class="project">
+        <h2>Project 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          facilisis, libero eget condimentum bibendum, mauris nunc laoreet
+          risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.
+        </p>
+        <img src="img1.png" alt="Image 1" />
+      </div>
+    </article>
+    <br>
+      <form>
+        <label for="contact">what way prefer to contact me</label>
+        <select name="contact-me-way" id="contact">
+          <option value="whatsup">whatsup</option>
+          <option value="email">email</option>
+        </select></form></br>
+        <label for="contact">what kind of job you want to hire me?</label></br>
+        <input type="radio" id="full-stack" name="job" value="full-stack" />
+        <label for="full-stack">full stack</label><br />
+        <input type="radio" id="front-end" name="job" value="front-end" />
+        <label for="front-end">front end</label><br />
+        <input type="radio" id="back-end" name="job" value="back-end" />
+        <label for="back-end">back-end</label></br>
+        <p>What topics are you interested in?</p> 
+        <input type="checkbox" id="Technology" name=" Technology" >
+        <label for=" Technology"> Technology</label><br>
+        <input type="checkbox" id="Health" name="Health" >
+        <label for=" Health">  Health and Wellness</label><br>
+        <input type="checkbox" id="Finance" name="Finance" >
+        <label for=" Health"> Finance </label><br>
+
+      </form>
     </article>
     <article>
-        <form >
-            <h2>contact me</h2>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br />
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br />
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br />
-            <input type="submit"  value="Submit">
-        </form>
+      <form>
+        <h2>contact me</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea
+        ><br />
+        <button type="submit">submit</button>
+      </form>
     </article>
     <footer>
-        <p>Copyright &copy; 2024 My Portfolio. All rights reserved.</p>
+      <p>Copyright &copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
