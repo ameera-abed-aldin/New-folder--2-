@@ -151,3 +151,7 @@ body {
     0%   { transform: translateY(0); }   
     100% { transform: translateY(-10px); }   
 }  
+.head{
+    width:80%;
+    font-size: 3.5rem;
+}
