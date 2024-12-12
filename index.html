@@ -1,105 +1,66 @@
 <!DOCTYPE html>
-<br lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>porfolio</title>
-  </head>
-  <br>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <h1>Portfolio</h1>
-      <p>Welcome to my portfolio</p>
-      <h2>ameera abed alnaser</h2>
-      <p>I'm full stack developer</p>
-    </header>
-    <article>
-      <h2>studied</h2>
-      <p>Bachelor of computer engineer</p>
-    </article>
-    <article>
-      <h2>skills</h2>
-      <ul>
-        <li>java,javascript, css ,html</li>
-        <li>react, spring boot</li>
-        <li>git ,githup</li>
-      </ul>
-    </article>
-    <article>
-      <div class="project">
-        <h2>Project 1</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          facilisis, libero eget condimentum bibendum, mauris nunc laoreet
-          risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.
-        </p>
-        <img src="img1.png" alt="Image 1" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header-hero">
+    
+  <header>
+    <nav class="navbar navbar-expand-lg bg-purple nav container" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ameera Abed</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">projects</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+           <button class="btn btn-puruple">contact me</button>
+          </span>
+        </div>
       </div>
-      <div class="project">
-        <h2>Project 2</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          facilisis, libero eget condimentum bibendum, mauris nunc laoreet
-          risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.
-        </p>
-        <img src="img1.png" alt="Image 1" />
-      </div>
-      <div class="project">
-        <h2>Project 3</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          facilisis, libero eget condimentum bibendum, mauris nunc laoreet
-          risus, ac fermentum neque mauris vel ipsum. Sed vel efficitur ipsum.
-        </p>
-        <img src="img1.png" alt="Image 1" />
-      </div>
-    </article>
-    <br>
-      <form>
-        <label for="contact">what way prefer to contact me</label>
-        <select name="contact-me-way" id="contact">
-          <option value="whatsup">whatsup</option>
-          <option value="email">email</option>
-        </select></form></br>
-        <label for="contact">what kind of job you want to hire me?</label></br>
-        <input type="radio" id="full-stack" name="job" value="full-stack" />
-        <label for="full-stack">full stack</label><br />
-        <input type="radio" id="front-end" name="job" value="front-end" />
-        <label for="front-end">front end</label><br />
-        <input type="radio" id="back-end" name="job" value="back-end" />
-        <label for="back-end">back-end</label></br>
-        <p>What topics are you interested in?</p> 
-        <input type="checkbox" id="Technology" name=" Technology" >
-        <label for=" Technology"> Technology</label><br>
-        <input type="checkbox" id="Health" name="Health" >
-        <label for=" Health">  Health and Wellness</label><br>
-        <input type="checkbox" id="Finance" name="Finance" >
-        <label for=" Health"> Finance </label><br>
+    </nav>
+  </header>
+  <section class="hero d-flex container">
+    <div class="left-hero-section">
+    
+      <p class="text-secondary fs-3" >FULL STACK WEB DEVELOPER</p>
+      <h1  class="fs-1" id="typed-output">Ameera Abed Alnaser</h1>
+      <p class="left-hero-section-p text-secondary">Passionate Full Stack Developer Ready to Bring Ideas to Life.. I look forward to contributing my passion and expertise to exciting project</p>
 
-      </form>
-    </article>
-    <article>
-      <form>
-        <h2>contact me</h2>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" /><br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /><br />
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea
-        ><br />
-        <button type="submit">submit</button>
-      </form>
-    </article>
-    <footer>
-      <p>Copyright &copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
-  </body>
+      <a href="#about" class="btn">Discover More</a>
+    </div>
+    <div class="right-hero-section">
+      <img src="/img/2.png" alt="header-img" class="animated-box" />
+      </div>
+   
+   
+</div> 
+</section>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+
+</body>
 </html>
+
+"As a dedicated Full Stack Developer, I thrive on creating seamless and innovative web solutions. With a strong foundation in both front-end and back-end technologies, I am eager to leverage my skills and creativity to develop applications that not only meet client needs but also enhance user experiences. While I am just starting my professional journey, my commitment to continuous learning and problem-solving drives me to stay updated with the latest industry trends and technologies. I look forward to contributing my passion and expertise to exciting projects."
